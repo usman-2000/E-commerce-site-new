@@ -1,0 +1,77 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-color: #f3f6f5;
+}
+.footer-content-all {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: #f3f6f5;
+  margin: 100px 0px 60px 100px;
+}
+.footer-comlogo {
+  width: 185px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.footer-heading {
+  width: 349px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #07484a;
+}
+.footer-sub-heading {
+  width: 250px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #07484a;
+}
+.footer-icons {
+  margin-top: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-icons img {
+  /* padding: 0px 10px 0px 10px; */
+}
+.footer-address {
+  margin-top: 20px;
+}
+.footer-company {
+  width: 30%;
+}
+.footer-myaccount {
+  width: 15%;
+}
+.footer-help {
+  width: 15%;
+}
+.footer-shop {
+  width: 15%;
+}
+.footer-legalstuff {
+  width: 15%;
+}
+.footer-content-copyright {
+  margin-left: 100px;
+  width: 150px;
+}
