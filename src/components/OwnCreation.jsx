@@ -9,8 +9,12 @@ export default function OwnCreation() {
   return (
     <div className="own-creation-container">
       <div className="own-creation-content">
-        <h2 className="own-creation-content-bold">Our Own Creation</h2>
-        <p className="own-creation-content-light">Designed in our studio</p>
+        <h2 className="own-creation-content-bold">
+          Custom Creations by Wellington Furnishings
+        </h2>
+        <p className="own-creation-content-light">
+          Designed and built in-house
+        </p>
         {/* <div className="own-creation-btn">
           <p>more</p>
           <button>prev</button>

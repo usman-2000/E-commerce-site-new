@@ -82,3 +82,9 @@
   background-color: white;
   color: #ff7f5c;
 }
+
+@media (max-width: 998px) {
+  .btn {
+    display: block !important;
+  }
+}

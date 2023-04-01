@@ -34,6 +34,10 @@ li {
 .logo {
   margin-left: 80px;
 }
+.logo img {
+  /* width: 120px; */
+  height: 7rem;
+}
 
 .menu-link {
   grid-column: 3/4;
@@ -264,8 +268,8 @@ li {
     grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
   }
   .logo img {
-    width: 35px;
-    height: 35px;
+    /* width: 7rem; */
+    height: 7rem;
   }
 
   .logo,

@@ -31,8 +31,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   width: 75%;
-  /* border: 2px solid rebeccapurple; */
 }
 .category-image-container img {
   width: 450px;
@@ -106,7 +106,7 @@
     padding: 0px;
   }
 }
-@media (max-width: 565px) {
+@media (max-width: 580px) {
   #main-cont-h2 {
     font-weight: 700;
     font-size: 54px;
@@ -114,13 +114,25 @@
   }
   .category-container {
     margin-left: 0px;
-    padding-left: 30px;
+    padding-left: 0px;
+  }
+  .category-image-container {
+    width: 100%;
+  }
+  .sidebar-container {
+    width: 0%;
   }
   .category-image-container img {
-    width: 130px;
-    height: 120px;
+    width: 90%;
+    height: 200px;
     border-radius: 10px;
     margin: 10px;
     padding: 0px;
+  }
+  #main-cont-h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
   }
 }

@@ -1,27 +1,28 @@
-import './App.css';
-import Category from './components/Category';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Imagecomponent from './components/Imagecomponent';
-import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
-import OwnCreation from './components/OwnCreation';
-import PopularProducts from './components/PopularProducts';
+import "./App.css";
+import Category from "./components/Category";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Imagecarousel from "./components/Imagecarousal";
+import Imagecomponent from "./components/Imagecomponent";
+import Navbar from "./components/Navbar";
+import Newsletter from "./components/Newsletter";
+import OwnCreation from "./components/OwnCreation";
+import PopularProducts from "./components/PopularProducts";
 // import Navbar from './components/Navbar';
-import ProductSlider from './components/ProductSlider';
+import ProductSlider from "./components/ProductSlider";
 
-import Testimonials from './components/Testimonials';
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <Category />
-      <PopularProducts />
+      <Imagecarousel />
       {/* <SliderLine /> */}
       {/* <ProductSlider /> */}
-      {/* <Imagecomponent />
-      <Scrollablelist /> */}
+      {/* <Imagecomponent /> */}
+      {/* <Scrollablelist /> */}
       <OwnCreation />
       <Testimonials />
       <Newsletter />

@@ -11,6 +11,8 @@ import { NavLink } from "react-router-dom";
 import cart from "../images/cart.png";
 import search from "../images/search.png";
 import profile from "../images/profile.png";
+import EcommerceLogo from "../images/EcommerceLogo.svg";
+import menu from "../images/menu.png";
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -19,7 +21,7 @@ const Navbar = () => {
       <nav className="main-nav">
         {/* 1st logo part  */}
         <div className="logo">
-          <h2>COMPANY LOGO</h2>
+          <img src={EcommerceLogo} alt="" />
         </div>
 
         {/* 2nd menu part  */}
@@ -64,7 +66,7 @@ const Navbar = () => {
           {/* hamburget menu start  */}
           <div className="hamburger-menu">
             <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
-              <GiHamburgerMenu />
+              <img src={menu} alt="" />
             </a>
           </div>
         </div>
