@@ -28,15 +28,28 @@ li {
   width: 100%;
   height: 7rem;
   display: grid;
-  grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
+  align-items: center;
+  grid-template-columns: 12rem 1fr 2fr 1fr 10rem;
+  /* grid-template-columns: 15rem 1fr 3fr 2fr 10rem; */
 }
 
 .logo {
-  margin-left: 80px;
+  margin-left: 0px;
 }
 .logo img {
-  /* width: 120px; */
-  height: 7rem;
+  /* width: 150px;
+  height: 10rem; */
+  margin-left: 80px;
+  /* margin-bottom: 20px; */
+  /* margin-top: 0px; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+  /* object-position: center; */
+  /* -o-object-position: center; */
 }
 
 .menu-link {
@@ -148,8 +161,8 @@ li {
 /* responsive css style  */
 @media (max-width: 1080px) {
   .main-nav {
-    height: 8rem;
-    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+    height: 7rem;
+    grid-template-columns: 20rem 1fr 3fr 2fr 5rem;
   }
 
   .logo,
@@ -157,13 +170,16 @@ li {
   .social-media ul {
     height: 8rem;
   }
+  .logo img {
+    margin-left: 25px;
+  }
 }
 
 /* responsive css style  */
 @media (max-width: 998px) {
   .main-nav {
-    height: 7rem;
-    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+    height: 8rem;
+    grid-template-columns: 10rem 2fr 3fr 2fr 2rem;
   }
   .btn {
     display: none;
@@ -175,7 +191,10 @@ li {
 
   .logo,
   .social-media ul {
-    height: 7rem;
+    height: 8rem;
+  }
+  .logo img {
+    margin-left: 25px;
   }
 
   .mobile-menu-link {
@@ -240,17 +259,20 @@ li {
 
 @media (max-width: 798px) {
   .main-nav {
-    height: 6rem;
-    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+    height: 8rem;
+    grid-template-columns: 10rem 2fr 1fr 1fr 1rem;
   }
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: 8rem;
   }
-
+  .logo img {
+    margin-left: 30px;
+    /* height: 100%; */
+  }
   .social-media {
-    height: 6rem;
+    height: 8rem;
     display: flex;
     justify-self: end;
     align-items: center;
@@ -264,17 +286,18 @@ li {
 
 @media (max-width: 520px) {
   .main-nav {
-    height: 6rem;
-    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+    height: 8rem;
+    grid-template-columns: 10rem 4fr 1fr 1fr 1rem;
   }
   .logo img {
     /* width: 7rem; */
-    height: 7rem;
+    height: 8rem;
+    margin-left: 25px;
   }
 
   .logo,
   .social-media ul {
-    height: 6rem;
+    height: 8rem;
   }
 
   .logo h2 {
@@ -282,7 +305,7 @@ li {
   }
 
   .social-media {
-    height: 6rem;
+    height: 8rem;
     display: flex;
     justify-self: end;
     align-items: center;

@@ -2,17 +2,18 @@ import React from "react";
 import "../styles/testimonials.css";
 import Ecommerce from "../images/Ecommerce.jpg";
 import Quote from "../images/Quote.png";
+import asasas from "../images/asasas.jpg";
 
 export default function Testimonials() {
   return (
     <div className="testimonials-container">
-        <h1 className="testimonials-bold">Testimonials</h1>
-        <p className="testimonials-light">Over 15,000 happy customers.</p>
+      <h1 className="testimonials-bold">Testimonials</h1>
+      <p className="testimonials-light">Over 15,000 happy customers.</p>
 
       <div className="testimonials-inner-container">
         <div className="testimonials-image-container">
           <img src={Quote} alt="image" id="quote-img" />
-          <img src={Ecommerce} alt="image" id="ecommerce-img" />
+          <img src={asasas} alt="image" id="ecommerce-img" />
         </div>
         <div className="testimonials-content-container">
           <p>

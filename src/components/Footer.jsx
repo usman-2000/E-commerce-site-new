@@ -25,11 +25,11 @@ export default function Footer() {
         </div>
         <div className="footer-address">
           <h3 className="footer-heading">Address</h3>
-          <p className="footer-sub-heading">+123 456 789</p>
+          <p className="footer-sub-heading">+1 (516) 312-7181</p>
           <p className="footer-sub-heading">877 The bronx, NY</p>
           <p className="footer-sub-heading">14568, US</p>
           <p className="footer-sub-heading" id="copyright-para">
-            Wellington Furnishings Copyright Logo 2023
+            Wellington Furnishings Copyright 2023
           </p>
         </div>
       </div>

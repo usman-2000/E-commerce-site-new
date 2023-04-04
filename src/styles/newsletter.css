@@ -61,14 +61,15 @@
   font-size: 14px;
   line-height: 28px;
   color: #07484a;
-  background: transparent;
+  /* background: transparent; */
   width: 80%;
   height: 4rem;
   margin-top: 4rem;
-  margin-left: 1rem;
-  outline: #e0f6f1;
+  margin-left: 2px;
+  /* outline: #e0f6f1; */
   border-radius: 10px;
-  border: #e0f6f1;
+  /* border: #e0f6f1; */
+  padding: 5px;
 }
 
 #mail-content-btn {

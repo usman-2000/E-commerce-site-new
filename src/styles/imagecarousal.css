@@ -44,6 +44,7 @@
 .pre-btn,
 .next-btn {
   border: none;
+  border-radius: 100%;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -57,9 +58,28 @@
 .next-btn {
   right: 50px;
 }
+.next-btn img {
+  opacity: 0.4;
+  transition: 0.3s;
+  border-radius: 100%;
+}
+.next-btn img:hover {
+  opacity: 1;
+  box-shadow: 0px 1px 30px 0px #07484a;
+}
+
+.pre-btn img {
+  opacity: 0.4;
+  transition: 0.3s;
+  border-radius: 100%;
+}
+.pre-btn img:hover {
+  opacity: 1;
+  box-shadow: 0px 1px 30px 0px #07484a;
+}
 
 .pre-btn {
-  right: 100px;
+  right: 120px;
 }
 .next-btn p,
 .pre-btn p {
